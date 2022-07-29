@@ -8,8 +8,8 @@ for($i=1; $i <= 32; $i++)
     $char = $chars[$pos];
     $nonce .= $char;
 }
-$binance_pay = "aalshnxgqtgaimxsa5wf9rdgcwkpcmts5i8ztalv9x3psjvzhx1ogcz673gwhtz0";
-$binance_pay_secret = "pmerozghjg7lfsbovjd1twwiteouwdcyefq0szgo6uzsldpaxvr0ik7xlvaameq0";
+$binance_pay = "***yourbinancepay***";
+$binance_pay_secret = "***yourbinancepaysecret***";
 
 $ch = curl_init();
 $timestamp = round(microtime(true) * 1000);
